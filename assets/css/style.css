@@ -9,6 +9,7 @@ body{
   padding: 150px 40px;
 }
 .speech-wrapper .bubble {
+  opacity: 0;
   width: 340px;
   height: auto;
   display: block;
@@ -142,4 +143,33 @@ body{
     margin-left:50px;
     float:left;
 }
+/**/
+
+/*misc*/
+#time{
+    opacity: 0;
+}
+
+@media screen and (max-width: 1400px) {
+    .chat-box{
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .chat-box{
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .chat-box{
+        width: 350px;
+    }
+    .chat-placeholder{
+        font-size: 10px;
+    }
+}
+
+
 /**/
