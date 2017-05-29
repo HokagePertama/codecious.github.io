@@ -161,11 +161,14 @@ body{
         width: 500px;
     }
     .speech-wrapper .bubble .txt .name {
-      font-size: 100px;
+      font-size: 50px;
     }
     .speech-wrapper .bubble .txt .message {
-      font-size: 100px;
+      font-size: 50px;
     }
+    .speech-wrapper .bubble {
+        width: 400px;
+      }
     
 }
 
